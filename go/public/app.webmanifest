@@ -1,0 +1,15 @@
+{
+  "name": "TrackingIt",
+  "short_name": "TrackingIt",
+  "theme_color": "#43281C",
+  "display": "browser",
+  "background_color": "#56bce8",
+  "description": "The ultimate app for tracking time!",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

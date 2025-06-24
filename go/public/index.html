@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrackingIt</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="app.webmanifest" />
+    <link rel="stylesheet" href="css/pico.min.css">
+    <link rel="icon" href="images/icon.png" />
+    <script src="app.js" type="module" defer></script>
+  </head>
+  <body>
+    <main></main>
+
+    <!-- Templates -->
+    <template id="template-track-page">
+      <form>
+        <input id="task-name" type="text" placeholder="Task name" />
+        <input id="task-comment" type="text" placeholder="Task comment" />
+        <button type="submit" disabled>Punch In</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Start</th>
+            <th>End</th>
+            <th>Total Time</th>
+            <th>Task Name</th>
+            <th>Task Comment</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </template>
+  </body>
+</html>
