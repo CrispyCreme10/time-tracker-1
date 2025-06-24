@@ -9,3 +9,7 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
 }
+
+.btn {
+  padding: 0 10px;
+}

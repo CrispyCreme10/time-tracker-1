@@ -15,8 +15,8 @@
     <!-- Templates -->
     <template id="template-track-page">
       <form>
-        <input id="task-name" type="text" placeholder="Task name" />
-        <input id="task-comment" type="text" placeholder="Task comment" />
+        <input id="task-name" type="text" placeholder="Task name" maxlength="50" />
+        <input id="task-comment" type="text" placeholder="Task comment" maxlength="255" />
         <button type="submit" disabled>Punch In</button>
       </form>
       <table>
@@ -27,6 +27,7 @@
             <th>Total Time</th>
             <th>Task Name</th>
             <th>Task Comment</th>
+            <th></th>
           </tr>
         </thead>
         <tbody></tbody>
